@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+	position: relative;
+	margin: auto;
+	width: 50%;
+	height: 50%;
+    align-items: center;
+}
+
+.push {
+    margin-left: auto;
+}
