@@ -1,12 +1,35 @@
-.container {
-    display: flex;
-	position: relative;
-	margin: auto;
-	width: 50%;
-	height: 50%;
-    align-items: center;
+
+
+/* no touchy, I have no idea which of these are necessary and I don't want to mess with it now */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+img {
+    object-fit: fill;
+    width: auto;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-.push {
-    margin-left: auto;
-}
+  @media (max-width: 768px) {
+    area {
+      top: calc(40% - 30px);
+      left: calc(50% - 50px);
+    }
+  }
+
+  @media (min-width: 769px) {
+    area {
+      top: calc(50% - 50px);
+      left: calc(50% - 70px);
+    }
+  } 
+
