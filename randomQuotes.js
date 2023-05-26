@@ -1,15 +1,19 @@
 var quotes = {
 	"Confucious": ["That is a very nice quote you've got"],
 	"Biden": ["SODAAA", "Hehe"],
-	"Heisy": ["I'm the one who knocks"]
+	"Heisy": ["I'm the one who knocks", "Say my name", "I am become Walter"],
+	"Geralt": ["The wind is howling"],
+	"Civ VI player": ["One more turn, then I'm done", "One more research focus, I promise", "Why did you just nuke me Gandhi?!"]
 };
 
-function writeQuote(){
+var lastQuote = "";
+
+function getQuote(){
 	var authors = Object.keys(quotes);
 	var randomIdx = Math.floor(Math.random() * authors.length);
 	var author = authors[randomIdx];
 	var quote = quotes[author];
-	
+
 	if (quote.length > 1){
 		randomIdx = Math.floor(Math.random() * quote.length);
 		quote = quote[randomIdx]
@@ -17,21 +21,41 @@ function writeQuote(){
 		quote = quote[0];
 	}
 
+	return [quote, author];
+}
+
+function writeQuote(){
+	var [quote, author] = getQuote();
+	
+	while (lastQuote === quote){
+		[quote, author] = getQuote();
+	}
+
 	var container = document.getElementById("quote_text");
 	container.style.opacity = 0;
 	container.style.transition = "ease 1s";
 
+	randomPosition(quote);
 	
 	setTimeout(function() {
 		document.getElementById("quote_text").innerHTML = `"${quote}" <br/> ${author}`;
 		container.style.opacity = 1;
-	}, 1000);
-	
-	lastQuotelength = quote.split(" ").length;
+	}, 400);
+
+	lastQuote = quote;
 }
 
-function getRandomInterval(min, max) {
-	return Math.floor(Math.random() * (max - min + 1) + min);
+function randomPosition(quote){
+	var width = window.innerWidth/2*0.75 - quote.length*5;
+	var height = window.innerHeight/2*0.75 - quote.length*5;
+
+	var randomXPos = Math.floor(Math.random() * width);
+	var randomYPos = Math.floor(Math.random() * height); 
+
+	randomXPos *= Math.round(Math.random()) ? 1 : -1;
+
+	document.getElementById("quote_text").style.top = randomYPos + "px";
+	document.getElementById("quote_text").style.left = randomXPos + "px";
 }
 
 function randomlyChangeQuote(){
