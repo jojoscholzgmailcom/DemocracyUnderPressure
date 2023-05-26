@@ -2,54 +2,32 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!--change from device-width?-->
 		<title>Main Page</title>
 		<link rel="stylesheet" href="style.css"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	</head>
 	<body>
-		<div class="container" style="width: 100%; height: 100%;">
-		<img src="./Resources/PiS_main.png" usemap="#image-map" class="pls_work" onload="updateMapCoords(this)">
-
-			<map name="image-map">
-				<area alt="S&amp;P" title="Students and Profs" href="./People/people.html" coords="13,1462,1634,1980" data-coords="13,1462,1634,1980" shape="rect">
-				<area alt="i" title="Information" href="./Information/information.html" coords="572,2167,2590,2504" data-coords="572,2167,2590,2504" shape="rect">
-				<area alt="P" title="Photos" href="./Photos/photos.html" coords="3241,2015,5181,1493" data-coords="3241,2015,5181,1493" shape="rect">
-				<area alt="Q" title="Quizz" href="./Quiz/quizWebsite.html" coords="4022,1031,5191,1474" data-coords="4022,1031,5191,1474" shape="rect">
-			</map>
+		<div style="display: flex; justify-content: center; position: relative; top: 5.5%;">
+			<span class="button" onclick="location.href='./About/information.html';">
+				About <br/>
+				<i class="fa fa-question fa-4x" style="position: relative; top: 10%;"></i>
+			</span>
+			<span class="button" onclick="location.href='./Essays/essays.html';">
+				Essays <br/>
+				<i class="fa fa-file fa-4x" style="position: relative; top: 10%;"></i>
+			</span>
+			<span class="button" onclick="location.href='./Quiz/quizWebsite.html';">
+				Quiz <br/>
+				<i class="fa fa-pen fa-4x" style="position: relative; top: 10%;"></i>
+			</span>
 		</div>
 
-		<script src="./updateInteractiveCoords.js"></script>
+		<div style="position: relative; top: 30%;">
+			<p id="quote_text" class="quote">
+				<script src="randomQuotes.js"></script>
+			</p>
+		</div>
 
-		<!-- <div class="ag-format-container">
-			<div class="ag-courses_box">
-	
-				<div class="ag-courses_item">
-					<a href="./Quiz/quizWebsite.html" class="ag-courses-item_link" style="position: absolute; bottom: 0; right: 0;">
-						<div class="ag-courses-item_bg">?</div>
-						<div class="ag-courses-item_title">
-							Quizz
-						</div>
-						<div class="ag-courses-item_text_box">Take our quiz pls!</div>
-					</a>
-				</div>
-				<div class="ag-courses_item">
-					<a href="./Photos/photos.html" class="ag-courses-item_link">
-						<div class="ag-courses-item_bg"></div>
-						<div class="ag-courses-item_title">
-							Photos
-						</div>
-					</a>
-				</div>
-				<div class="ag-courses_item">
-					<a href="./Quotes/quotes.html" class="ag-courses-item_link">
-						<div class="ag-courses-item_bg"></div>
-						<div class="ag-courses-item_title">
-							Quotes
-						</div>
-					</a>
-				</div>
-	
-			</div>
-		</div> -->
 	</body>
 </html>

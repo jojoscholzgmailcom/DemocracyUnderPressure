@@ -1,35 +1,38 @@
 
 
-/* no touchy, I have no idea which of these are necessary and I don't want to mess with it now */
-html, body {
+ html, body {
     height: 100%;
     width: 100%;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-img {
-    object-fit: fill;
-    width: auto;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-  @media (max-width: 768px) {
-    area {
-      top: calc(40% - 30px);
-      left: calc(50% - 50px);
-    }
-  }
-
-  @media (min-width: 769px) {
-    area {
-      top: calc(50% - 50px);
-      left: calc(50% - 70px);
-    }
+    background: white;
+    background: linear-gradient(white 50%, red 50%);
   } 
 
+  .button {
+    border: solid 2px black;
+    color: black;
+    width: 1000px;
+    height: 175px;
+    padding: 10px;
+    margin: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: x-large;
+    transition: ease 0.4s;
+    text-align: center;
+  }
+
+  .button:hover{
+    background-color: red;
+  }
+
+  .href_text{
+    text-decoration: none;
+    color: black;
+  }
+
+  .quote{
+    text-align:center;
+    color: white;
+    font-size: xx-large;
+  }
