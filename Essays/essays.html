@@ -3,10 +3,51 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>People!</title>
+		<title>Essays</title>
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	</head>
-	<body>
-		<p>Essays</p>
+	<body>		
+		<div class="upper_area">
+			<div class="title_text">
+				Essays
+			</div>
+
+			<div> 
+				<div class="button_area">
+					<span class="button" onmouseover="hoverQuoteArea('g1')" onmouseout="resetQuoteArea()" onclick="clickGroupButton('g1')">
+						Group 1 <br/>
+					</span>
+					<span class="button" onmouseover="hoverQuoteArea('g2')" onmouseout="resetQuoteArea()" onclick="clickGroupButton('g2')">
+						Group 2 <br/>
+					</span>
+					<span class="button" onmouseover="hoverQuoteArea('g3')" onmouseout="resetQuoteArea()" onclick="clickGroupButton('g3')">
+						Group 3 <br/>
+					</span>
+				</div>
+				<div class="button_area" >
+					<span class="button" onmouseover="hoverQuoteArea('g4')" onmouseout="resetQuoteArea()" onclick="clickGroupButton('g4')">
+						Group 4 <br/>
+					</span>
+					<span class="button" onmouseover="hoverQuoteArea('g5')" onmouseout="resetQuoteArea()" onclick="clickGroupButton('g5')">
+						Group 5 <br/>
+					</span>
+					<span class="button" onmouseover="hoverQuoteArea('g6')" onmouseout="resetQuoteArea()" onclick="clickGroupButton('g6')">
+						Group 6 <br/>
+					</span>
+				</div>
+			</div>
+		</div>
+
+		<div id="quote_area" class="quote_area">
+			<div id="goBack" class="button_back" onclick="goBackSelection()">
+				<i class="fa fa-arrow-left fa-4x" style="position: relative; top: 1%; "></i>
+			</div>
+			<p id="quote_text" class="quote">
+				<script src="../randomQuotes.js"></script>
+			</p>
+		</div>
+		
+		<script src="../buttonAnimations.js"></script>
 	</body>
 </html>
