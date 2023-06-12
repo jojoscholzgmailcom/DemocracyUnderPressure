@@ -8,7 +8,7 @@ var quotes = {
 
 var lastQuote = "";
 
-var isHovered = false;
+var isHovered = 0;
 var isClicked = false;
 
 function getQuote(){
@@ -28,9 +28,6 @@ function getQuote(){
 }
 
 function writeQuote(){
-	if (isHovered == true || isClicked == true){
-		return;
-	}
 	var [quote, author] = getQuote();
 	
 	while (lastQuote === quote){
@@ -66,106 +63,21 @@ function randomPosition(quote){
 }
 
 function randomlyChangeQuote(){
-	writeQuote()
+	writeQuote();
 	setInterval(writeQuote, 5000);
 }
 
-function hoverQuoteArea(group) {
+function hoverQuoteArea() {
 	var quoteArea = document.getElementById('quote_area');
 	
-	isHovered = true;
-	
-	getText(group);
-
 	quoteArea.classList.add('hovered');
-}
-
-function getText(group){
-	container = document.getElementById("quote_text");
-	container.style.transition = "ease 1s";
-	container.style.opacity = 0;
-	container.innerHTML.text = "";
-
-	try{
-		fetch(`essay_text/${group}.json`).then(response => response.json()).then(
-			data => {
-				title = data["title"]; 
-				text = data["text"];
-
-				document.getElementById("quote_text").style.top = "5px";
-				document.getElementById("quote_text").style.left = 0;
-				
-				var p_elem = document.createElement("p");
-				p_elem.id = "essay_text"
-				p_elem.style.top = "15px";
-				p_elem.style.left = 0;
-				p_elem.style.transition = "ease 1s";
-				p_elem.style.opacity = 0;
-				p_elem.style.color = "white";
-				p_elem.style.fontSize = "x-large";
-				p_elem.style.fontWeight = "450";
-				p_elem.style.textAlign = "center";
-				
-				var node = document.createTextNode(text);
-				p_elem.appendChild(node);
-				
-				document.getElementById("quote_area").appendChild(p_elem);
-
-				setTimeout(function() {
-					document.getElementById("quote_text").innerHTML = title;
-					p_elem.style.opacity = 1;	
-					container.style.opacity = 1;
-				}, 400);
-			}
-		);
-	} catch (error) {
-		console.error('Error:', error);
-	}
 }
 
 function resetQuoteArea() {
 	var quoteArea = document.getElementById('quote_area');
-	isHovered = false;
-	writeQuote();
-
-	var p_elem = document.getElementById("essay_text");
-	p_elem.style.opacity = 0;
-	// p_elem.style.position = "relative";
-	// p_elem.style.transition = "ease top 1s";
-	// p_elem.style.top = "100px";	
-	
-	setTimeout(function() {
-		quoteArea.removeChild(p_elem);
-	}, 400);
-
 
 	quoteArea.classList.remove('hovered');
 }
 
-function clickGroupButton(group) {
-	isClicked = true;
-
-	var quoteArea = document.getElementById('quote_area');
-	
-	quoteArea.classList.add("clicked");
-
-	getText(group);
-
-	var back_button = document.getElementById("goBack");
-	back_button.style.visibility = "visible";
-	back_button.style.opacity = 1;
-
-	quoteArea.classList.removed("hovered");
-}
-
-function goBackSelection() {
-	isClicked = false;
-
-	var back_button = document.getElementById("goBack");
-
-	quoteArea.classList.removed("clicked");
-	back_button.style.visibility = "hidden";
-	back_button.style.opacity = 0;
-}
 
 randomlyChangeQuote();
