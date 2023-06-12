@@ -3,21 +3,35 @@
     <head>
         <title>Democracy Under Pressure - Populism</title>
         <link rel="stylesheet" href="../style.css"> 
+        <link rel="stylesheet" href="quizStyle.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     <!-- TODO - add card layout+images for multiple quizzes? -->
     <body>
-        <h1 id = "QuestionTitle">Jaroslaw Kaczynski</h1>
-        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Jaros%C5%82aw_Kaczy%C5%84ski%2C_wicepremier_%28cropped%29.png/220px-Jaros%C5%82aw_Kaczy%C5%84ski%2C_wicepremier_%28cropped%29.png" alt = "Jaroslaw Kaczynski" width="200">
-        <h2 id = "QuestionText">Populist Ideology</h2>
-            <h3>Elite:</h3>
-            <ul>
-                <li>EU</li>
-            </ul>
-            <h3>People:</h3>
-            <ul>
-                <li>Hard-working christian Poles</li>
-            </ul>
-        <button onclick="location.href='../index.html';">Return to Homepage</button>
+        <div class="upper_area">
+			<div id = "QuestionTitle", class="title_text">
+				Jaroslaw Kaczynski
+			</div>
+
+            <div id = "QuestionText" class="information_text">
+                <div class="information_container">
+				    <img class = "information_elements" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Jaros%C5%82aw_Kaczy%C5%84ski%2C_wicepremier_%28cropped%29.png/220px-Jaros%C5%82aw_Kaczy%C5%84ski%2C_wicepremier_%28cropped%29.png" alt = "Jaroslaw Kaczynski" width="200">
+                    <h2 class = "information_elements" id = "QuestionText">Populist Ideology</h2>
+                    <h3 class = "information_elements">Elite:</h3>
+                    <ul class = "information_elements">
+                        <li>EU</li>
+                    </ul>
+                    <h3 class = "information_elements">People:</h3>
+                    <ul class = "information_elements">
+                        <li>Hard-working christian Poles</li>
+                    </ul>
+                    <span id="button_back" class="information_elements" onclick="location.href='../index.html';">
+                        Return to Homepage
+                    </span>
+                </div>
+            </div>
+
+			
+		</div>
     </body>
 </html>
