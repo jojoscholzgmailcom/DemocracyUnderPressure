@@ -51,15 +51,21 @@
   .upper_area {
     position: relative; 
     width: 100%;
-    height: 50vh;
+    height: 50%;
     background-color: white;
   }
 
   .quote_area{
-    position: relative; 
+    position: absolute;
     width: 100%;
-    height: 50vh;
+    height: 50%;
     background-color: #DC143C;
+    transition: bottom 0.3s ease, top 0.3s ease, width 0.75s ease, height 0.75s ease;
+    bottom: 0px;
+  }
+
+  .quote_area.hovered {
+    bottom: -100px;
   }
 
   .quote{
