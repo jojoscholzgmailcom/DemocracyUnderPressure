@@ -2,17 +2,56 @@
 <html>
     <head>
         <title>Democracy Under Pressure - Populism</title>
+        <link rel="stylesheet" href="../style.css"> 
+        <link rel="stylesheet" href="quizStyle.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     <!-- TODO - add card layout+images for multiple quizzes? -->
-    <body style="margin: auto; text-align: center;">
-        <h1 id = "QuestionTitle">Awesome Title</h1>
-        <p id = "QuestionText">Awesome Text</p>
+    <body>
+        <div class="upper_area">
+			<div id = "QuestionTitle", class="title_text">
+				Democracy under Pressure
+			</div>
+
+            <div id = "QuestionText", class="question_text">
+				Awesome Text
+			</div>
+
+			<div class="button_area">
+                <div class="buttonDiv">
+				    <span id = "button0" class="button" onclick="onButton(0)">
+                        About
+                    </span>
+                </div>
+				<div class="buttonDiv">
+				    <span id = "button1" class="button" onclick="onButton(1)">
+                        About
+                    </span>
+                </div>
+                <div class="buttonDiv">
+				    <span id = "button2" class="button" onclick="onButton(2)">
+                        About
+                    </span>
+                </div>
+                <div class="buttonDiv">
+				    <span id = "button3" class="button" onclick="onButton(3)">
+                        About
+                    </span>
+                </div>
+                <div class="buttonDiv">
+				    <span id = "button4" class="button" onclick="onButton(4)">
+                        About
+                    </span>
+                </div>
+                <div class="buttonDiv">
+				    <span id = "button5" class="button" onclick="onButton(5)">
+                        About
+                    </span>
+                </div>
+				<script src="buttonAnimations.js"></script>
+			</div>
+		</div>
         <script src = "quizScript.js"></script>
-        <button id = "button0", onclick = "onButton(0)">Button1</button>
-        <button id = "button1", onclick = "onButton(1)">Button2</button>
-        <button id = "button2", onclick = "onButton(2)">Button3</button>
-        <button id = "button3", onclick = "onButton(3)">Button4</button>
-        <button id = "button4", onclick = "onButton(4)">Button4</button>
     <script>displayQuestion(questionContext);</script>
 </body>
 </html>
