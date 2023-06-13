@@ -3,21 +3,35 @@
     <head>
         <title>Democracy Under Pressure - Populism</title>
         <link rel="stylesheet" href="../style.css"> 
+        <link rel="stylesheet" href="quizStyle.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </head>
     <!-- TODO - add card layout+images for multiple quizzes? -->
     <body>
-        <h1 id = "QuestionTitle">Donald Trump</h1>
-        <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Donald_Trump_%2852250930172%29_%28cropped%29.jpg/220px-Donald_Trump_%2852250930172%29_%28cropped%29.jpg" alt = "Donald Trump" width="200">
-        <h2 id = "QuestionText">Populist Ideology</h2>
-            <h3>Elite:</h3>
-            <ul>
-                <li>China, corrupt politicians</li>
-            </ul>
-            <h3>People:</h3>
-            <ul>
-                <li>Hard-working Americans</li>
-            </ul>
-        <button onclick="location.href='../index.html';">Return to Homepage</button>
+        <div class="upper_area">
+			<div id = "QuestionTitle", class="title_text">
+				Donald Trump
+			</div>
+
+            <div id = "QuestionText" class="information_text">
+                <div class="information_container">
+				    <img class = "information_elements" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Donald_Trump_%2852250930172%29_%28cropped%29.jpg/220px-Donald_Trump_%2852250930172%29_%28cropped%29.jpg" alt = "Donald Trump" width="200">
+                    <h2 class = "information_elements" id = "QuestionText">Populist Ideology</h2>
+                    <h3 class = "information_elements">Elite:</h3>
+                    <ul class = "information_elements">
+                        <li>China, corrupt politicians</li>
+                    </ul>
+                    <h3 class = "information_elements">People:</h3>
+                    <ul class = "information_elements">
+                        <li>Hard-working Americans</li>
+                    </ul>
+                    <span id="button_back" class="information_elements" onclick="location.href='../index.html';">
+                        Return to Homepage
+                    </span>
+                </div>
+            </div>
+
+			
+		</div>
     </body>
 </html>
