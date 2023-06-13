@@ -1,4 +1,8 @@
  
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
  html, body {
     height: 100%;
@@ -11,19 +15,20 @@
   .button_area{
     display: flex; 
     justify-content: center; 
-    position: relative; 
-    /* height: 50vh; */
+    position: relative;
+    height: 5vh; 
+    padding: 50px;
+    margin-bottom: -3vh;
   }
 
   .button {
     border: solid 2px black;
     color: black;
-    width: 150px;
-    height: 60px;
-    /* padding: 15px; */
-    padding-bottom: 10px;
-    margin: 35px;
-    border-radius: 20px;
+    width: 20vh;
+    height: 7vh;
+    padding: 3vh;
+    margin: 2vh;
+    border-radius: 4vh;
     cursor: pointer;
     font-size: 3vh;
     transition: ease 0.4s;
@@ -47,22 +52,22 @@
 
   .button:hover{
     background-color: #DC143C;
-    width: 250px;
-    height: 100px;
+    width: 25vh;
+    height: 12vh;
     font-size: 4vh;
   }
 
-  .quote_area {
+  .quote_area{
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 50vh;
     background-color: #DC143C;
     transition: bottom 0.3s ease, top 0.3s ease, width 0.75s ease, height 0.75s ease;
-    bottom: -10px;
+    bottom: 0vh;
   }
   
   .quote_area.hovered {
-    bottom: -40px;
+    bottom: -10vh;
   }
   
   .quote_area.clicked {
