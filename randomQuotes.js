@@ -50,18 +50,21 @@ function writeQuote(){
 }
 
 function randomPosition(quote){
-	var width = window.innerWidth*0.01 - quote.length*0.01*10;
-	var height = window.innerHeight*0.01 - quote.length*0.01*10;
+	var quoteArea = document.getElementById('quote_area');
+
+	var width = quoteArea.innerWidth*0.01 - quote.length*0.01*10;
+	var height = quoteArea.innerHeight*0.01 - quote.length*0.01*10;
 
 	var randomXPos = Math.floor(Math.random() * width);
 	var randomYPos = Math.floor(Math.random() * height); 
 
 	randomXPos *= Math.round(Math.random()) ? 1 : -1;
 
-	console.log([randomXPos, randomYPos]);
+	// document.getElementById("quote_text").style.top = randomYPos + "vh";
+	// document.getElementById("quote_text").style.left = randomXPos + "vw";
 
-	document.getElementById("quote_text").style.top = randomYPos + "vh";
-	document.getElementById("quote_text").style.left = randomXPos + "vw";
+	document.getElementById("quote_text").style.top = 0 + "vh";
+	document.getElementById("quote_text").style.left = 0 + "vw";
 }
 
 function randomlyChangeQuote(){
