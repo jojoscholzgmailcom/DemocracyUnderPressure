@@ -27,7 +27,7 @@
     color: black;
     width: 20vh;
     height: 20vh;
-    padding: 3vh;
+    padding: 1vh;
     margin: 1vh;
     border-radius: 4vh;
     cursor: pointer;
@@ -61,6 +61,8 @@
     height: 50%;
     background-color: rgb(255, 255, 255);
     transition: bottom 0.3s ease, top 0.3s ease, width 0.75s ease, height 0.3s ease;
+    margin: 0;
+    padding: auto;
   }
 
   .upper_area.hovered {
