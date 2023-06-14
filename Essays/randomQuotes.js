@@ -152,9 +152,12 @@ function resetQuoteArea() {
 	var p_elem = document.getElementById("essay_text");
 	p_elem.style.opacity = 0;
 
-	setTimeout(function() {
-		quoteArea.removeChild(p_elem);
-	}, 400)
+	quoteArea.childNodes.forEach(child => { // to remove extra text instances
+		if(child.nodeName == "P" && child.id == "essay_text"){
+			quoteArea.removeChild(child);
+		}
+	});
+
 
 	quoteArea.classList.remove('hovered');
 }
