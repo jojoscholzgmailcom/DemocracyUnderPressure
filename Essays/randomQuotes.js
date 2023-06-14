@@ -364,10 +364,10 @@ function group6(){
 
 	Broadly speaking, Yanchenko defines the populist narrative as <br/><br/>
 
-	“a politically relevant story about the conflict between a positive homogenous in-group and a
+	<center>“a politically relevant story about the conflict between a positive homogenous in-group and a
 	negative homogenous out-group with the latter being hierarchically higher than the former”<br/><br/>
 	
-	(Yanchenko, 2021, p. 14).<br/><br/>
+	(Yanchenko, 2021, p. 14).</center><br/><br/>
 	
 	Based on this definition, Yanchenko identifies six elements, three of which are necessary for
 	a narrative and the remaining three for a narrative’s populist character. Although Yanchenko
@@ -386,12 +386,14 @@ function group6(){
 	met. First, the story must have a moral, which gives the narrative a meaning. Often,
 	however, the meaning intended by the narrator can differ from the meaning recipients
 	ascribe to the narrative. Second, this meaning is considered political if a narrative concerns
-	a community’s or a society’s way of life and organisation.
+	a community’s or a society’s way of life and organisation.<br/><br/>
+
 	Concerning the populist characteristics of the populist narrative, Yanchenko seems to adopt
 	Mudde’s definition of populism. In particular, Mudde’s juxtaposition of two seemingly
 	homogenous people on which populism relies, but also the populists’ moral judgement that
 	the elite acts against the will of the moral people, is reflected in Yanchenko’s concept
-	(Mudde, 2004).
+	(Mudde, 2004).<br/><br/>
+
 	Yanchenko (2021) argues that a political narrative can be labelled populist if three common
 	elements of populism are translated into the narrative. A populist narrative captures the
 	people-centric nature of populism by having a positively presented in-group which
@@ -404,13 +406,14 @@ function group6(){
 	advantaged than the in-group. Furthermore, it is important to note that both groups constitute
 	“homogenous entities”. Subsequently, the in- and out-group are exclusively positively or
 	negatively presented respectively, without allowing for the possibility of characters belonging
-	to multiple groups.
+	to multiple groups.<br/><br/>
 	
 	With these theoretical foundations in mind, the tracing of these populist elements in the PiS
 	party’s discourse during the refugee crisis from 2015 until 2017 will be more clear. However,
 	it still needs to be justified why PiS can be considered a right-wing populist party and can,
 	therefore, be assumed to have adopted a populist narrative during this crisis.
-	2.2. The PiS Party - a Right-Wing Populist Organisation
+
+	2.2. The PiS Party - a Right-Wing Populist Organisation <br/><br/>
 	The PiS party, which has been in power in Poland since 2015, can be classified as a
 	right-wing populist party for several reasons. The party's platform is based on traditional
 	conservative values, including the importance of family, religion, and patriotism (Kaczyński,
@@ -419,7 +422,8 @@ function group6(){
 	NAWA Programme, which seeks to “promote the Polish language related to elements of
 	Polish history and culture by financing undertakings contributing to improving the quality of
 	teaching Polish as a foreign language and its prestige, thus exerting a lasting impact on the
-	image of Poland in the world” (NAWA, n.d.).
+	image of Poland in the world” (NAWA, n.d.).<br/><br/>
+
 	In order to protect the Polish people’s interests and defend the country’s sovereignty against
 	external threats, PiS also emphasises the need for a strong, centralised government
 	(Ministry of Foreign Affairs Republic of Poland, 2017). This is particularly reflected in its
@@ -430,7 +434,8 @@ function group6(){
 	also resulted in the PiS party seeking to control the media and judiciary in order to
 	consolidate power and limit dissent, with the “state-owned media in Poland hav[ing] become
 	a propaganda tool of the ruling party”, and the government’s opponents being portrayed as
-	‘‘enemies of the nation’ and ‘foreign forces’” (Żuk, 2020, p. 1).
+	‘‘enemies of the nation’ and ‘foreign forces’” (Żuk, 2020, p. 1).<br/><br/>
+
 	On an international level, the PiS party has been critical of the European Union and its
 	perceived encroachment on Poland's sovereignty, and has thus pursued policies that are
 	often at odds with EU norms and values (Kinowska-Mazaraki, 2021). What, however, unites
@@ -446,22 +451,24 @@ function group6(){
 	(Gwiazda, 2021, p. 585; Mikuli, 2018, p. 1; Orzechowski et al., 2021, p. 147; Prawo i
 	Sprawiedliwość, 2019, as cited in Gwiazda, 2021). In addition, its use of divisive rhetoric and
 	the spread of conspiracy theories to stir up public support and consolidate power has also
-	been viewed critically (Kinowska-Mazaraki, 2021).
+	been viewed critically (Kinowska-Mazaraki, 2021). <br/><br/>
+
 	Essentially, the PiS party can be considered a right-wing populist party due to its emphasis
-	on nationalism, authoritarianism, and protectionism, as well as its appeal to the working
-	
-	class and rejection of liberal values and institutions. Additionally, its disregard for democratic
+	on nationalism, authoritarianism, and protectionism, as well as its appeal to the working class and rejection of liberal values and institutions. Additionally, its disregard for democratic
 	norms and institutions has raised concerns about the erosion of democratic governance in
-	Poland.
-	3. Historical Background: How Poland became an Ethnically
-	and Religiously Homogeneous Population
+	Poland. <br/><br/>
+
+	3. Historical Background: How Poland became an Ethnically and Religiously Homogeneous Population <br/><br/>
+	
 	Today, Poland’s ethnic and religious homogeneity stands out in Europe, as 97% of the
 	population is Polish and 95% are catholic (UNHCR, 2007). Assuming that this fact and its
 	historical background might have been a part of the PiS party’s populist narrative on the
 	refugee crisis, this section provides an overview of Poland’s evolution towards an ethnically
 	and religiously homogeneous population against which the PiS narrative could be
-	understood.
-	3.1. The Initial Situation: A Multiethnic Polish-Lithuanian Commonwealth
+	understood. <br/><br/>
+	
+	3.1. The Initial Situation: A Multiethnic Polish-Lithuanian Commonwealth <br/><br/>
+
 	The predecessor of what is today known as Poland was the Polish-Lithuanian
 	Commonwealth (PLC), having officially lasted from 1569 to 1795 (Friedrich & Pendzich,
 	2009). This state was much larger than modern-day Poland and, at the height of its
@@ -472,14 +479,16 @@ function group6(){
 	Lithuanians, Ruthenians, Germans, and Tatars as well as followers of religions other than
 	the Roman Catholic faith such as Orthodox, Jews and Muslims was ensured (Buchowski et
 	al., 2010). For several centuries, the PLC was thus indeed a heterogenous state with regard
-	to its composing ethnic groups.
+	to its composing ethnic groups. <br/><br/>
+
 	However, the PLC’s ethnic and religious heterogeneity was lost due to the partitions, as
 	discussed in Buchowski et al. (2010) and Wandycz (1984). After the first partition in 1772,
 	the PLC was split between Prussia and the Habsburg and Russian Empires. With each
 	subsequent partition, more and more of the lands were taken away, reducing the PLC in
 	both size and ethnic diversity. The final partition of 1795 meant the end of a truly
 	independent PLC and thus Poland, at least until after the end of World War I (Wandycz,
-	1984).
+	1984). <br/><br/>
+
 	Under the rule of the aforementioned empires, the lives of Poles and other ethnic groups, at
 	all strata of society, drastically changed. Lands were taken away, a new bureaucracy was
 	imposed, and Polish culture as a heterogeneous entity was gone (Wandycz, 1984). Yet,
@@ -491,11 +500,12 @@ function group6(){
 	(Wandycz, 1984). Following World War I, Poland was revived as a state, though it had
 	already existed as a nation for the people in the occupied lands. Still, Poland’s existence
 	was threatened from the start by the Red Army of the Soviet Union. However this threat was
-	
 	countered by the Poles, succeeding thus in becoming an independent state and nation with
 	no immediate threats. At the start of World War II, Poland was thus larger than its modern
-	form, though not as large and as diverse as the PLC.
-	3.2. The Turning Point: World War II and Its Aftermath
+	form, though not as large and as diverse as the PLC. <br/><br/>
+
+	3.2. The Turning Point: World War II and Its Aftermath <br/><br/>
+
 	World War II and its immediate aftermath marked a turning point in Polish history regarding
 	its ethnic composition. The three reasons historians usually give for this are that the mass
 	killings during World War II, as well as the border changes and the associated mass
@@ -511,7 +521,8 @@ function group6(){
 	is more acceptable than the other, but after the end of World War II, the differences in
 	treatment were reflected in the number of survivors. According to historians, around 80
 	percent of non-Jewish Poles did survive the German occupation, whereas only 10 percent of
-	the Jewish Poles did (Ther, 2014).
+	the Jewish Poles did (Ther, 2014). <br/><br/>
+
 	On the other hand, in the aftermath, Polish borders were newly defined, leading to a
 	migration of different ethnic groups. Already at the 1943 Tehran Conference, the three Allies
 	being the UK, the USA, and the USSR, decided that Poland’s territory should be reordered.
@@ -527,14 +538,15 @@ function group6(){
 	roughly 700,000 Ukrainians living in Poland, 482,000 were sent to the Ukrainian SSR in the
 	first two years after 1945 (Ther, 2014). World War II and its aftermath, thus, led to today’s
 	Polish state being predominantly made up of ethnic Poles for the first time in history, a
-	situation that deepened during the communist era.
-	3.3. The Result: An Ethnically Homogeneous Population in the 1990s
+	situation that deepened during the communist era. <br/><br/>
+
+	3.3. The Result: An Ethnically Homogeneous Population in the 1990s <br/><br/>
+
 	Today’s idea of an ethnically homogenous Polish population belonging to the Polish state
 	was the result of communist and post-communist policies. During the communist era, the
 	Polish government pursued policies which promoted the dominance of ethnic Poles
 	(Majewicz & Wicherkiewicz, 1998). This included the suppression of minority languages and
 	cultures and the assimilation of non-Poles into Polish society. While these policies were
-	
 	often denounced for their heavy-handedness, they did contribute to a greater sense of
 	national unity and a shared Polish identity among the population, which became especially
 	evident in the aftermath of communism (Majewicz & Wicherkiewicz, 1998).
@@ -554,7 +566,7 @@ function group6(){
 	Isles between 2007 and 2009 after the financial crisis had also hit Ireland and the UK (Hołda
 	et al., 2011). This only strengthened the country’s homogeneous ethnic composition (Hołda
 	et al., 2011) and “constitute[d] a symbolic affirmation of Polish collective identity” (White,
-	2014, p. 27).
+	2014, p. 27). <br/><br/>
 
 	In conclusion, the country’s ethnic and religious homogeneity is only a fairly recent
 	phenomenon, because there has never been an era in earlier Polish history when
@@ -565,9 +577,12 @@ function group6(){
 	population, it has also been criticised for its exclusion of ethnic minorities and their cultures.
 	In light of the refugee crisis in 2015, it is now interesting to examine whether the PiS party’s
 	narrative referred to history and if so, whether it reinforced the “traditional nationalist
-	mythology linking the Polish ‘land’ exclusively with the Polish ‘nation’” (Davies, 2004, p. 143).
-	4. Analysing the PiS Party’s Narrative of the Migration Crisis
-	4.1. The 2015 Migration Crisis, Poland and the Rise of the PiS Party
+	mythology linking the Polish ‘land’ exclusively with the Polish ‘nation’” (Davies, 2004, p. 143). <br/><br/>
+	
+	4. Analysing the PiS Party’s Narrative of the Migration Crisis <br/><br/>
+
+	4.1. The 2015 Migration Crisis, Poland and the Rise of the PiS Party <br/><br/>
+
 	With around 1.3 million people seeking asylum in EU member states, Norway, and
 	Switzerland, the migration crisis in 2015 posed a challenge to Europe and the EU in
 	particular (Luxton, 2016). The main trigger for this crisis was the war in Syria. Since the war
@@ -577,11 +592,9 @@ function group6(){
 	who were persecuted and oppressed because of their identity, believed they could easily
 	reach Europe by taking the Balkan route through Turkey and Greece (Carnegie Europe,
 	2015). As transport costs became cheaper at that time and the refugees could not stay in the
-	
-	8
-	
 	African countries at the Mediterranean coast, they made their way to the European continent
-	(Carnegie Europe, 2015).
+	(Carnegie Europe, 2015). <br/><br/>
+
 	Interestingly, Poland was not as strongly affected by the refugee crisis as one would
 	assume. In fact, Poland was not directly located on the Balkan route, while most refugees
 	also avoided entering that country, because they did not want to stay there (Klaus et al.,
@@ -592,7 +605,8 @@ function group6(){
 	main impetus for this was the decision of the then resigning Polish government to implement
 	the EU refugee resettlement and relocation scheme by agreeing to take in 7,000 refugees in
 	2016 and 2017 (Klaus et al., 2018). However, once the PiS party was in government, Poland
-	withdrew from this commitment (Klaus et al., 2018).
+	withdrew from this commitment (Klaus et al., 2018). <br/><br/>
+
 	At home, the PiS government also decided to take a tougher stance on refugees. More
 	restrictions were introduced against people seeking international protection, and the Polish
 	police became stricter toward refugees arriving at the Polish-Belarusian eastern border
@@ -605,9 +619,10 @@ function group6(){
 	judicial control. Moreover, the Interior Minister could immediately expel foreigners accused of
 	involvement in terrorist activity (Klaus et al., 2018). But how exactly could the PiS party
 	justify such harsh refugee policies? In order to answer that question, the PiS party’s
-	narrative about refugees must be closely examined.
+	narrative about refugees must be closely examined. <br/><br/>
 	
-	4.2. The Refugees: The Dangerous Others
+	4.2. The Refugees: The Dangerous Others <br/><br/>
+
 	The first and most obvious antagonists in the PiS party’s narrative were the refugees who, in
 	Yanchenko’s words, were portrayed as a negatively depicted out-group (Kabata and Jacobs,
 	2022). First and foremost, refugees were not seen as peaceful individuals looking to escape
@@ -616,15 +631,13 @@ function group6(){
 	cultural way. They were seen as “non-integrable”, “forcing” their culture onto Poland that had
 	accepted them (Kabata and Jacobs, 2022), being a significant threat to “European culture”
 	and most importantly to Polish values. By doing this, PiS painted refugees as a threat to
-	Polish society and thus Polish identity.
+	Polish society and thus Polish identity. <br/><br/>
+
 	Furthermore, refugees were not seen as people in need, but rather PiS emphasised that
 	they were “different” from what the Polish society expected. That is, refugees were part of
 	groups that did not fit into Polish society. Othering the refugees further separated them from
 	what is considered to be a “true” Polish individual, resulting in seeing refugees not as equal
-	humans but rather as “others”. This process mainly focused on the refugees’ religion, the
-	
-	9
-	
+	humans but rather as “others”. This process mainly focused on the refugees’ religion, the 
 	Islam, as opposed to the predominant religion in Poland, Roman-Catholicism. PiS added to
 	the refugees’ image by in fact depicting what their “desired” migrants were: white, Christian,
 	and Eastern European - all traits that describe Poland in general. Such an explicit
@@ -636,7 +649,8 @@ function group6(){
 	“migrants” in order to other the refugees that are not part of the “accepted group”. Since the
 	word “migrant”, in Polish “migracyjny”, has negative connotations (Krzyżanowska &
 	Krzyżanowski, 2018), this further insinuated that “migrants” were not welcome in Polish
-	society.
+	society.<br/><br/>
+
 	While PiS portrayed refugees in a negative light, it is also important to know how Poles
 	themselves viewed refugees. With the refugee crisis happening and migration becoming a
 	hot-button issue, more and more Poles started voicing their opinions, even those with
@@ -651,37 +665,41 @@ function group6(){
 	75% to just about 33%. During the crisis the image of refugees had dramatically worsened,
 	with more Polish people considering them as being detrimental or even a threat to their way
 	of living. This might be attributed to the narrative pushed by PiS, though it is unlikely to be
-	the only factor given Poland’s history on migration.
+	the only factor given Poland’s history on migration. <br/><br/>
+
 	4.3. The EU and Western European Member States: the Leftist and
-	Elitist Villains
+	Elitist Villains <br/><br/>
+
 	The other and more active antagonist in the PiS party’s narrative was the EU and its
 	Western European member states. In relation to these actors, PiS adopted a dynamic of “us”
 	against “them”, which was usually used to visualise Poland’s struggle against the elites in
 	Brussels, who, according to their narrative, were more receptive to the interests of the older,
 	Western European member states (Yermakova, 2019). Depending on which translations and
 	sources the analysis is based on, the portrayal of the EU and EU partners in the PiS
-	narrative will be less or more extreme.
+	narrative will be less or more extreme. <br/><br/>
+
 	Kabata and Jacobs (2022) would suggest that the PiS government depicted the EU rather as
 	a weak actor going down the wrong road. Their analysis reveals that PiS pointed out the
 	mistakes in the EU’s crisis management. Among other things, the EU was accused of not
 	having closed the external borders, of playing with the security of Europeans, and of failing
 	to register the refugees’ identity (Kabata and Jacobs, 2022). Using Brussels as a scapegoat
 	provided the PiS government with the ideal justification for rejecting the EU relocation
-	10
-	
 	mechanism not least because this raised serious security concerns (Kabata and Jacobs,
 	2022). Simultaneously, the PiS narrative insinuated the EU to deviate from Christian values
 	and to try to act in a politically correct way (Kabata and Jacobs, 2022), as the following quote
-	by PiS member of parliament Pięta shows (as cited in Kabata and Jacobs, 2022, p. 8):
-	“Western Europe lost its identity fighting against Christianity. The European left
+	by PiS member of parliament Pięta shows (as cited in Kabata and Jacobs, 2022, p. 8): <br/><br/>
+
+	<center>“Western Europe lost its identity fighting against Christianity. The European left
 	destroyed the spirit of community. Social egoism, which is the leading idea of the
 	liberal-left states of the Old Continent, turns out to be deadly for Western
 	communities. It turns out that Western European societies have lost their instinct for
 	self-defence, and despite the deaths of hundreds of innocent people, they still intend
-	to plunge into the absurdities of false tolerance and political correctness.”
+	to plunge into the absurdities of false tolerance and political correctness.”</center><br/><br/>
+
 	This quote demonstrates that the PiS especially thought that so-called left-wing politicians of
 	Western European countries wanted refugees to enter the EU, throwing Christian morality
-	overboard. In that way, however, the image of an EU in crisis was only reinforced.
+	overboard. In that way, however, the image of an EU in crisis was only reinforced.<br/><br/>
+
 	In contrast, Yermakova’s (2019) analysis is more concerned with the PiS narrative’s
 	treatment of the EU relocation mechanism. In her view, PiS characterised the EU as a
 	demon whose bureaucratic elites lacked democratic legitimacy (Yermakova, 2019). In
@@ -692,7 +710,8 @@ function group6(){
 	policy on [Poland]” and that the EU was pursuing “the policy of pressure” (PiS, 2017, as cited
 	in Yermakova, 2019, p. 189). Instead, the PiS party insisted that Poland had the right to
 	“decide who [Poland] want[s] to accept, whom [Poland] want[s] to accept temporarily, and
-	whom [Poland] do[es] not want to accept” (PiS, 2018, as cited in Yermakova, 2019, p. 188).
+	whom [Poland] do[es] not want to accept” (PiS, 2018, as cited in Yermakova, 2019, p. 188). <br/><br/>
+	
 	However, not only has the EU been called hypocritical, but the PiS party’s narrative also
 	gave the impression that the EU was abused by politicians from Western European member
 	states. It suggested that Germany and her then chancellor Angela Merkel made a mistake
@@ -702,21 +721,22 @@ function group6(){
 	mechanism, was “a complete mistake” (PiS, 2017, as cited in Yermakova, 2019, p. 184) and
 	should be “a wakeup call showing the hypocrisy of the Brussels elites” (PiS, 2017, as cited in
 	Yermakova, 2019, p. 184). The EU institutions were thus blamed for wanting to vouch for
-	Germany’s mistakes.
+	Germany’s mistakes. <br/><br/>
+
 	As a result, the EU and its Western European member states played the role of villains in the
 	PiS party’s narrative of the migration crisis. Due to the strong and bad influence of the
 	Western European states, the Brussels elites made decisions in the interest of Western
-	European leaders, according to the narrative. At this point, Poland’s role came into play.
-	4.4. Poland: a Victim Becoming a Hero
+	European leaders, according to the narrative. At this point, Poland’s role came into play. <br/><br/>
+
+	4.4. Poland: a Victim Becoming a Hero <br/><br/>
+
 	In the PiS party’s narrative, the Polish population, in whose name PiS claimed to act, was
 	depicted as the positive in-group. As already mentioned above, the PiS narrative featured a
-	
-	11
-	
 	pronounced “us vs them” dynamic, with the “us” referring to the PiS government speaking on
 	behalf of the Polish population. However, the “us” also sometimes included the Visegrad
 	countries or the central and eastern European region in general (Yermakova, 2019). Above
-	all, however, PiS saw the Polish population and state threatened in mainly two ways.
+	all, however, PiS saw the Polish population and state threatened in mainly two ways.<br/><br/>
+	
 	First, the PiS party wanted to ensure the “security of Poland and Poles” (PiS, 2015, as cited
 	in Yermakova, 2019, p. 183). Claiming that sharia law would already apply in other Western
 	European countries such as in Sweden, France, the UK, or Germany, PiS maintained that
@@ -726,7 +746,8 @@ function group6(){
 	security of their citizens (PiS, 2017, as cited in Yermakova, 2019, p. 186), as reflected in
 	published PiS documents with the titles “Security of Poles is our priority” (PiS, 2017, as cited
 	in Yermakova, 2019, p. 187) or “Poland defends its own interests today” (PiS, 2017, as cited
-	in Yermakova, 2019, p. 188-189).
+	in Yermakova, 2019, p. 188-189).<br/><br/>
+
 	The second theme was the threat to Polish sovereignty (Yermakova, 2019). Regarding this
 	aspect, Yermakova even challenges the view that migrants were the main problem for the
 	PiS party. Instead, she suggests that PiS feared that “[Poland’s] monopoly on
@@ -737,7 +758,8 @@ function group6(){
 	2015, as cited in Yermakova, 2019, p. 188). Indeed, the party claimed that “[s]uch a decision
 	would abolish the sovereignty of the weaker member States of the European Union [and that
 	the Poles] must oppose, because [they] are and will be masters in [their] own land” (PiS,
-	2016, as cited in Yermakova, 2019, p. 188).
+	2016, as cited in Yermakova, 2019, p. 188).<br/><br/>
+
 	Portraying Poland as a victim of foreign oppressive powers, the PiS party insisted that the
 	country had to resist the EU’s “evil” influence. More importantly, the PiS party’s narrative
 	claimed that Poland was a hero, because it was willing to sacrifice itself, also in order to
@@ -747,7 +769,8 @@ function group6(){
 	our country [sic]” (PiS, 2015, as cited in Yermakova, 2019, p. 185). In this context, PiS
 	presented itself as Poland’s only and true saviour, arguing, for example, that “(...) if it were
 	not for the Government of Law and Justice and a tough policy in this matter, the Poles would
-	not feel safe today [sic]” (PiS, 2017, as cited in Yermakova, 2019, p. 189).
+	not feel safe today [sic]” (PiS, 2017, as cited in Yermakova, 2019, p. 189).<br/><br/>
+
 	However, the party’s narrative also knew how to play Poles against each other. On the one
 	hand, PiS identified the Civic Platform party, which became the largest main opposition party
 	after the election, as an enemy of the Polish people (Yermakova, 2019). Prior to the
@@ -756,18 +779,18 @@ function group6(){
 	policy and a sovereign policy towards the EU” (PiS, 2017, as cited in Yermakova, 2019, p.
 	189). In order to personalise the image of the enemy, Donald Tusk, the Civic Platform’s party
 	leader and the then President of the European Council, became the main target, as he was
-	accused, for example, of “high treason” (Yermakova, 2019, p. 190) and “pursu[ing] German
-	12
-	
+	accused, for example, of “high treason” (Yermakova, 2019, p. 190) and “pursu[ing] German	
 	interests” (Yermakova, 2019, p. 189). On the other hand, PiS considered anyone who was
 	against their policies as an enemy of Poland. Hence, Poles who had another political opinion
 	or favourised other values and demonstrated that publicly were blamed for “wan[ting] the
-	Polish life to be disturbed” (PiS, 2017, as cited in Yermakova, 2019, p. 190).
+	Polish life to be disturbed” (PiS, 2017, as cited in Yermakova, 2019, p. 190).<br/><br/>
+
 	All in all, the PiS party’s narrative portrayed PiS as the defender of Polish security and
 	sovereignty, as Polanpainted the opposition in a bad light and attacked dissidents as traitors
-	to the Polish state.
+	to the Polish state. <br/><br/>
 	
-	5. Conclusion
+	5. Conclusion <br/><br/>
+
 	The narrative the PiS party spread about the refugee crisis in 2015 can be considered a
 	populist narrative. Following the usual David versus Goliath, or good versus evil schema,
 	their narrative tells the story of the battered but rising Poland fighting against the evil EU
@@ -781,7 +804,8 @@ function group6(){
 	party implicitly assumed that Poland has always belonged only to the Polish population. It is,
 	therefore, not surprising that the narrative excluded a discussion of the multiethnic and
 	religiously diverse PLC, because this would not fit into the populists’ worldview that the
-	Polish population has always existed as a homogenous group.
+	Polish population has always existed as a homogenous group. <br/><br/>
+
 	This essay thus demonstrates how populists effectively wrap reality in a narrative in which
 	the “good” people have to defend themselves against the “bad” and “elitist” enemies. In this
 	respect, populists seem to aim at creating and telling a story which easily explains the
@@ -795,7 +819,8 @@ function group6(){
 	they exist today are only a relatively recent phenomenon, their opposition of the “good”
 	unified Polish population against the “evil” and “dangerous” refugees would not have worked.
 	To reinforce this narrative, the populists have additionally integrated the EU, its Western
-	member states and partly also dissenting Poles as evil actors into their narrative.
+	member states and partly also dissenting Poles as evil actors into their narrative. <br/><br/>
+
 	The challenge for Poles, but also for people in other countries, lies now in identifying,
 	questioning, and criticising populist narratives, because they can strongly influence people’s
 	perceptions of politics. With sufficient historical knowledge and a better understanding of
