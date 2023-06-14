@@ -69,14 +69,19 @@ function randomlyChangeQuote(){
 
 function hoverQuoteArea() {
 	var quoteArea = document.getElementById('quote_area');
+	var upperArea = document.getElementById("upper_area");
 	
 	quoteArea.classList.add('hovered');
+	upperArea.classList.add("hovered");
 }
 
 function resetQuoteArea() {
 	var quoteArea = document.getElementById('quote_area');
+	var upperArea = document.getElementById("upper_area");
+
 
 	quoteArea.classList.remove('hovered');
+	upperArea.classList.remove("hovered");
 }
 
 
