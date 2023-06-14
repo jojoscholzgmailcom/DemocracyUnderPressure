@@ -53,16 +53,18 @@ function writeQuote(){
 }
 
 function randomPosition(quote){
-	var width = window.innerWidth/2*0.75 - quote.length*5;
-	var height = window.innerHeight/2*0.75 - quote.length*5;
+	var width = window.innerWidth*0.01 - quote.length*0.01*10;
+	var height = window.innerHeight*0.01 - quote.length*0.01*10;
 
 	var randomXPos = Math.floor(Math.random() * width);
 	var randomYPos = Math.floor(Math.random() * height); 
 
 	randomXPos *= Math.round(Math.random()) ? 1 : -1;
 
-	document.getElementById("quote_text").style.top = randomYPos + "px";
-	document.getElementById("quote_text").style.left = randomXPos + "px";
+	console.log([randomXPos, randomYPos]);
+
+	document.getElementById("quote_text").style.top = randomYPos + "vh";
+	document.getElementById("quote_text").style.left = randomXPos + "vw";
 }
 
 function randomlyChangeQuote(){
