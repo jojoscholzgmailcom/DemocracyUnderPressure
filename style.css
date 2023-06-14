@@ -18,7 +18,6 @@
     position: relative; 
     width: 100%;
     top: 3vh;
-    /* margin: 1vh; */
     margin: 0;
   }
 
@@ -29,6 +28,7 @@
     height: 20vh;
     padding: 1vh;
     margin: 1vh;
+    margin-bottom: 10vh;
     border-radius: 4vh;
     cursor: pointer;
     font-size: 3vh;
@@ -61,18 +61,18 @@
     height: 50%;
     background-color: rgb(255, 255, 255);
     transition: bottom 0.3s ease, top 0.3s ease, width 0.75s ease, height 0.3s ease;
-    margin: 0;
-    padding: auto;
+    margin: 0vh;
+    padding: 0vh;
   }
 
   .upper_area.hovered {
-    height: 70%;
+    height: 50%;
   }
 
   .quote_area{
     position: absolute;
     width: 100%;
-    height: 50vh;
+    height: 50%;
     background-color: #DC143C;
     transition: bottom 0.3s ease, top 0.3s ease, width 0.75s ease, height 0.75s ease;
     bottom: 0vh;
