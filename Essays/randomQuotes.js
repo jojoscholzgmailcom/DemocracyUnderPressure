@@ -71,6 +71,10 @@ function randomlyChangeQuote(){
 }
 
 function hoverQuoteArea(group) {
+	if (isClicked){
+		return;
+	}
+
 	var quoteArea = document.getElementById('quote_area');
 	
 	isHovered += 1;
@@ -114,32 +118,47 @@ function getText(group){
 	}
 
 
-	document.getElementById("quote_text").style.top = "5px";
+	document.getElementById("quote_text").style.top = "-7vh";
 	document.getElementById("quote_text").style.left = 0;
 	
 	var p_elem = document.createElement("p");
-	p_elem.id = "essay_text"
-	p_elem.style.top = "15px";
+	var node = document.createTextNode(text);
+	
+	p_elem.appendChild(node);
+	
+	document.getElementById("quote_area").appendChild(p_elem);
+	p_elem.id = "essay_text";
+	p_elem.style.position = "relative";
+	p_elem.style.top = "-5vh";
 	p_elem.style.left = 0;
 	p_elem.style.transition = "ease 1s";
 	p_elem.style.opacity = 0;
 	p_elem.style.color = "white";
-	p_elem.style.fontSize = "x-large";
+	p_elem.style.fontSize = "4vh";
 	p_elem.style.fontWeight = "450";
 	p_elem.style.textAlign = "center";
-	var node = document.createTextNode(text);
-
-	p_elem.appendChild(node);
-	
-	document.getElementById("quote_area").appendChild(p_elem);
 
 	setTimeout(function() {
 		document.getElementById("quote_text").innerHTML = title;
 		p_elem.style.opacity = 1;	
 		container.style.opacity = 1;
-	}, 400);
+	}, 350);
 }
 
+function removeEssayText(){
+	var quoteArea = document.getElementById('quote_area');
+	var p_elem = document.getElementById("essay_text");
+
+	p_elem.style.opacity = 0;
+
+	setTimeout(function() {
+		quoteArea.childNodes.forEach(child => { // to remove extra text instances
+			if(child.nodeName == "P" && child.id == "essay_text"){
+				quoteArea.removeChild(child);
+			}
+		});
+	}, 400);
+}
 
 
 function resetQuoteArea() {
@@ -149,25 +168,27 @@ function resetQuoteArea() {
 
 	isHovered = 0;
 
-	var p_elem = document.getElementById("essay_text");
-	p_elem.style.opacity = 0;
-
-	quoteArea.childNodes.forEach(child => { // to remove extra text instances
-		if(child.nodeName == "P" && child.id == "essay_text"){
-			quoteArea.removeChild(child);
-		}
-	});
-
+	removeEssayText();	
 
 	quoteArea.classList.remove('hovered');
 }
 
 function clickGroupButton(group) {
 	isClicked = true;
-
+	
 	var quoteArea = document.getElementById('quote_area');
 	var htmlElem = document.documentElement;
 	var htmlBody = document.body;
+	
+	var countP = 0;
+	quoteArea.childNodes.forEach(child => {
+		if(child.nodeName == "P" && child.id == "essay_text"){
+			countP++;
+		}
+		if(countP > 1 && child.nodeName == "P" && child.id == "essay_text"){
+			quoteArea.removeChild(child);
+		}
+	});
 
 	quoteArea.classList.add("clicked");
 	quoteArea.classList.remove("hovered");
@@ -175,7 +196,9 @@ function clickGroupButton(group) {
 	htmlElem.style.overflow = "auto";
 	htmlBody.style.overflow = "auto";
 
-	getText(group);
+	setTimeout(function(){
+		getText(group);
+	}, 300);
 
 	var back_button = document.getElementById("goBack");
 	
@@ -196,7 +219,6 @@ function goBackSelection() {
 	htmlBody.style.overflow = "hidden";
 
 	var back_button = document.getElementById("goBack");
-	var p_elem = document.getElementById("essay_text");
 
 	var quote_area = document.getElementById("quote_area");
 	quote_area.classList.remove("clicked");
@@ -206,9 +228,7 @@ function goBackSelection() {
 		back_button.style.opacity = 0;
 	}, 500);
 
-	setTimeout(function() {
-		quote_area.removeChild(p_elem);
-	}, 400);
+	removeEssayText();
 
 	setTimeout(function() {
 		writeQuote();
