@@ -64,8 +64,9 @@
     position: absolute;
     width: 100%;
     height: 45vh;
+    top: 55%;
     background-color: #DC143C;
-    transition: bottom 0.3s ease, top 0.3s ease, width 0.75s ease, height 0.75s ease;
+    transition: bottom 0.3s ease, top 0.75s ease, width 0.75s ease, height 0.75s ease;
     bottom: 0vh;
   }
   
@@ -74,9 +75,11 @@
   }
   
   .quote_area.clicked {
+    top: 0;
     width: 100%;
     height: 100%;
-    bottom: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .href_text{
