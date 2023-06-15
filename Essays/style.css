@@ -68,6 +68,7 @@
     background-color: #DC143C;
     transition: bottom 0.3s ease, top 0.75s ease, width 0.75s ease, height 0.75s ease;
     bottom: 0vh;
+    overflow: hidden;
   }
   
   .quote_area.hovered {
