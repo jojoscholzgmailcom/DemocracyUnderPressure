@@ -133,7 +133,7 @@ function getText(group){
 	p_elem.style.color = "white";
 	p_elem.style.fontSize = "4vh";
 	p_elem.style.fontWeight = "450";
-	p_elem.style.textAlign = "justified";
+	p_elem.style.textAlign = "justify";
 
 	setTimeout(function() {
 		document.getElementById("quote_text").innerHTML = title;
