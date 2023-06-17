@@ -86,7 +86,9 @@ function hoverQuoteArea(group) {
 
 	getText(group);
 
-	quoteArea.classList.add('hovered');
+	if(group === "g4" || group === "g5" || group === "g6"){
+		quoteArea.classList.add('hovered');
+	}
 }
 
 function getText(group){
@@ -152,7 +154,7 @@ function removeEssayText(){
 		});
 }
 
-function resetQuoteArea() {
+function resetQuoteArea(group) {
 	var quoteArea = document.getElementById('quote_area');
 	isHovered = false;
 	
@@ -164,7 +166,9 @@ function resetQuoteArea() {
 		removeEssayText();	
 	}
 
-	quoteArea.classList.remove('hovered');
+	if(group === "g4" || group === "g5" || group === "g6"){
+		quoteArea.classList.remove('hovered');
+	}
 }
 
 function clickGroupButton() {

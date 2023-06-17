@@ -5,8 +5,8 @@
 }
 
  html, body {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     background: white;
     overflow: hidden;
@@ -17,21 +17,21 @@
     justify-content: center; 
     position: relative; 
     width: 100%;
-    top: 3vh;
+    top: 7vh;
     margin: 0;
   }
 
   .button {
     border: solid 2px black;
     color: black;
-    width: 20vh;
-    height: 20vh;
+    width: 20vw;
+    height: 25vh;
     padding: 1vh;
     margin: 1vh;
     margin-bottom: 10vh;
-    border-radius: 4vh;
+    border-radius: calc((4vh+4vw)/2);
     cursor: pointer;
-    font-size: 3vh;
+    font-size: calc( 2 * ( 1vh + 0.5vw ));
     transition: ease 0.4s;
     text-align: center;
     position: relative;
@@ -41,24 +41,19 @@
 
   .button:hover{
     background-color: #DC143C;
-    width: 25vh;
+    width: 25vw;
     height: 30vh;
-    font-size: 4vh;
+    font-size: calc( 2.5 * ( 1vh/45% + 100%/1vw ) );
   }
 
   .button:active{
-    margin: 5vh 5vh 0; 
-  }
-
-  .href_text{
-    text-decoration: none;
-    color: black;
+    margin: 5vw 5vh 0; 
   }
 
   .upper_area {
     position: absolute; 
     width: 100%;
-    height: 55%;
+    height: 55vh;
     background-color: white;
     transition: bottom 0.3s ease, top 0.3s ease, width 0.75s ease, height 0.3s ease;
     margin: 0vh;
@@ -66,7 +61,8 @@
   }
 
   .upper_area.hovered {
-    height: 70%;
+    height: 70vh;
+    width: 100%;
   }
 
   .quote_area{
@@ -80,7 +76,7 @@
   }
 
   .quote_area.hovered {
-    bottom: -10vh;
+    bottom: -4vh;
   }
 
   .quote{
