@@ -226,7 +226,6 @@ function goBackSelection() {
 
 randomlyChangeQuote();
 
-
 function group1(){
 	var title = "Title in latin 1";
 	var text = "Lorem ipsum stuff stuff in latin";
