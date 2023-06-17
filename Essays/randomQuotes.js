@@ -156,7 +156,6 @@ function removeEssayText(){
 	}, 400);
 }
 
-
 function resetQuoteArea() {
 	var quoteArea = document.getElementById('quote_area');
 	isHovered = false;
