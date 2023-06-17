@@ -65,7 +65,6 @@ function randomPosition(quote){
 
 	// document.getElementById("quote_text").style.top = randomYPos + "vh";
 	// document.getElementById("quote_text").style.left = randomXPos + "vw";
-
 	
 	document.getElementById("quote_text").style.top = 0 + "vh";
 	document.getElementById("quote_text").style.left = 0 + "vw";
@@ -128,7 +127,7 @@ function getText(group){
 	p_elem.style.position = "relative";
 	p_elem.style.top = "-5vh";
 	p_elem.style.left = 0;
-	p_elem.style.transition = "ease 1s";
+	p_elem.style.transition = "1s ease";
 	p_elem.style.opacity = 0;
 	p_elem.style.color = "white";
 	p_elem.style.fontSize = "4vh";
@@ -144,16 +143,14 @@ function getText(group){
 
 function removeEssayText(){
 	var quoteArea = document.getElementById('quote_area');
-
 	
-	setTimeout(function() {
 		quoteArea.childNodes.forEach(child => { // to remove extra text instances
 			if(child.nodeName == "P" && child.id == "essay_text"){
 				child.style.opacity = 0;
-				quoteArea.removeChild(child);
+				setTimeout(function(){quoteArea.removeChild(child);},400);
+				
 			}
 		});
-	}, 400);
 }
 
 function resetQuoteArea() {
@@ -167,6 +164,7 @@ function resetQuoteArea() {
 	if(!isClicked){
 		removeEssayText();	
 	}
+
 	quoteArea.classList.remove('hovered');
 }
 
