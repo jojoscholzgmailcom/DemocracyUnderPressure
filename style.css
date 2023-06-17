@@ -24,15 +24,15 @@
   .button {
     border: solid 2px black;
     color: black;
-    width: 20vw;
-    height: 25vh;
+    width: calc( 20vw + 2vh );
+    height: calc( 22vh + 0.5vw );
     padding: 1vh;
     margin: 1vh;
     margin-bottom: 10vh;
-    border-radius: calc((4vh+4vw)/2);
+    border-radius: 4vh;
     cursor: pointer;
-    font-size: calc( 2 * ( 1vh + 0.5vw ));
-    transition: ease 0.4s;
+    font-size: calc( 2vh + 1vw );
+    transition: all 0.4s ease;
     text-align: center;
     position: relative;
     animation: fade-in-animation 1.5s ease-in-out forwards;
@@ -41,9 +41,9 @@
 
   .button:hover{
     background-color: #DC143C;
-    width: 25vw;
-    height: 30vh;
-    font-size: calc( 2.5 * ( 1vh/45% + 100%/1vw ) );
+    width: calc( 25vw + 1vh );
+    height: calc( 27vh + 1vw );
+    font-size: calc( 2.2vh + 1.2vw );
   }
 
   .button:active{
@@ -84,7 +84,7 @@
     top: 40%;
     text-align:center;
     color: white;
-    font-size: 6vh;
+    font-size: calc( 6vh + 2vw );
     font-weight: 450;
   }
 
