@@ -148,7 +148,6 @@ function removeEssayText(){
 			if(child.nodeName == "P" && child.id == "essay_text"){
 				child.style.opacity = 0;
 				setTimeout(function(){quoteArea.removeChild(child);},400);
-				
 			}
 		});
 }
@@ -187,7 +186,7 @@ function clickGroupButton() {
 	quoteArea.classList.remove("hovered");
 	
 	var back_button = document.getElementById("goBack");
-	
+
 	setTimeout(function() {
 		back_button.style.visibility = "visible";
 		back_button.style.opacity = 1;
@@ -208,7 +207,7 @@ function goBackSelection() {
 
 	var quote_area = document.getElementById("quote_area");
 	quote_area.classList.remove("clicked");
-
+	
 	setTimeout(function() {
 		back_button.style.visibility = "hidden";
 		back_button.style.opacity = 0;
