@@ -26,10 +26,10 @@
   .button {
     border: solid 2px black;
     color: black;
-    width: 20vh;
-    height: 7vh;
-    padding: 3vh;
-    margin: 2vh;
+    width: 20vw;
+    height: 9vh;
+    padding: 2vh;
+    margin: 1vh;
     border-radius: 4vh;
     margin-bottom: 10vh;
     cursor: pointer;
@@ -42,6 +42,13 @@
     transform-origin: center;
   }
 
+  .button:hover{
+    background-color: #DC143C;
+    width: 25vh;
+    height: 12vh;
+    font-size: 4vh;
+  }
+  
   .button_back {
     color: white;
     width: 8vh;
@@ -51,13 +58,6 @@
     transition: opacity 1.5s;
     visibility: hidden;
     opacity: 0;
-  }
-
-  .button:hover{
-    background-color: #DC143C;
-    width: 25vh;
-    height: 12vh;
-    font-size: 4vh;
   }
 
   .quote_area{
