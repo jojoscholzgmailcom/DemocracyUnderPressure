@@ -17,7 +17,7 @@ html, body {
 #button_back {
     border: solid 2px black;
     color: black;
-    width: 10vh;
+    width: 10vw;
     height: 5vh;
     padding: 3vh;
     margin: 1vh;
@@ -58,7 +58,7 @@ html, body {
 .button_area .buttonDiv .button {
     display: block;
     height: 5vh;
-    width: 55vh;
+    width: 55vw;
     margin: 0 auto;
     margin-top: 10px;
 }

@@ -51,14 +51,14 @@ html, body {
 .button {
   border: solid 2px black;
   color: black;
-  width: 20vw;
-  height: 9vh;
+  width: calc( 20vw + 1vh );
+  height: calc( 9vh + 0.5vw );
   padding: 2vh;
   margin: 1vh;
   border-radius: 4vh;
   margin-bottom: 10vh;
   cursor: pointer;
-  font-size: 4vh;
+  font-size: calc( 2vh + 2vw );
   transition: ease 0.4s;
   text-align: center;
   position: relative;
@@ -112,7 +112,7 @@ html, body {
   top: 40%;
   text-align:center;
   color: white;
-  font-size: 5vh;
+  font-size: calc( 5vh + 2vw );
   font-weight: 450;
 }
 
