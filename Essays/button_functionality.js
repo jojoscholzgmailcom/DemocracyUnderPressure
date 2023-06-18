@@ -46,7 +46,7 @@ function getText(group){
 		break;
 	}
 
-	document.getElementById("quote_text").style.top = "-4vh";
+	document.getElementById("quote_text").style.top = "-13vh";
 	document.getElementById("quote_text").style.left = 0;
 	document.getElementById("quote_text").style.fontSize = "calc(3vh + 2vw)";
 	
@@ -56,7 +56,7 @@ function getText(group){
 	document.getElementById("quote_area").appendChild(p_elem);
 	p_elem.id = "essay_text";
 	p_elem.style.position = "relative";
-	p_elem.style.top = "-6vh";
+	p_elem.style.top = "-10vh";
 	p_elem.style.left = 0;
 	p_elem.style.transition = "1s ease";
 	p_elem.style.opacity = 0;
@@ -98,6 +98,8 @@ function resetQuoteArea(group) {
 	if(group === "g4" || group === "g5" || group === "g6"){
 		quoteArea.classList.remove('hovered');
 	}
+	document.getElementById("quote_text").style.top = "-15vh";
+	document.getElementById("quote_text").style.left = "0vh";
 }
 
 function clickGroupButton() {
