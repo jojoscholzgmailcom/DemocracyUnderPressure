@@ -12,6 +12,8 @@ html, body {
 
 .information_container .information_elements{
     display: block;
+    position: relative;
+    font-size: 3vh;
 }
 
 #button_back {
@@ -23,7 +25,7 @@ html, body {
     margin: 1vh;
     border-radius: 20px;
     cursor: pointer;
-    font-size: 2vh;
+    font-size: calc( ( 2vh + 2vw ) / 2);
     transition: ease 0.4s;
     text-align: center;
     position: relative;
@@ -32,9 +34,9 @@ html, body {
 
 #button_back:hover{
     background-color: #DC143C;
-    width: 15vh;
+    width: 15vw;
     height: 7vh;
-    font-size: 3vh;
+    font-size: calc( ( 3vh + 3vw ) / 2);
 }
 
 #button_back:active{
@@ -71,11 +73,11 @@ html, body {
 
 .upper_area {
     justify-content: center;
-    height: 90vh;
+    height: 100%;
 }
 
 .button_area .buttonDiv .button:hover{
-    width: 65vh;
-    height: 6;
+    width: 65vw;
+    height: 6vh;
     font-size: 4vh;
 }
