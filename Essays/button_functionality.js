@@ -46,8 +46,9 @@ function getText(group){
 		break;
 	}
 
-	document.getElementById("quote_text").style.top = "-7vh";
+	document.getElementById("quote_text").style.top = "-4vh";
 	document.getElementById("quote_text").style.left = 0;
+	document.getElementById("quote_text").style.fontSize = "calc(3vh + 2vw)";
 	
 	var p_elem = document.createElement("p");
 	p_elem.innerHTML = text;
@@ -55,7 +56,7 @@ function getText(group){
 	document.getElementById("quote_area").appendChild(p_elem);
 	p_elem.id = "essay_text";
 	p_elem.style.position = "relative";
-	p_elem.style.top = "-5vh";
+	p_elem.style.top = "-6vh";
 	p_elem.style.left = 0;
 	p_elem.style.transition = "1s ease";
 	p_elem.style.opacity = 0;
@@ -77,7 +78,7 @@ function removeEssayText(){
 		quoteArea.childNodes.forEach(child => { // to remove extra text instances
 			if(child.nodeName == "P" && child.id == "essay_text"){
 				child.style.opacity = 0;
-				setTimeout(function(){quoteArea.removeChild(child);},400);
+				child.parentNode.removeChild(child);
 			}
 		});
 }
@@ -103,6 +104,12 @@ function clickGroupButton() {
 	isClicked = true;
 	
 	var quoteArea = document.getElementById('quote_area');
+
+	var quote_text = document.getElementById("quote_text");
+	var p_elem = document.getElementById("essay_text");
+
+	quote_text.style.top = "2vh";
+	p_elem.style.top = "2vh";
 	
 	var countP = 0;
 	quoteArea.childNodes.forEach(child => {
@@ -117,12 +124,13 @@ function clickGroupButton() {
 	quoteArea.classList.add("clicked");
 	quoteArea.classList.remove("hovered");
 	
-	var back_button = document.getElementById("goBack");
+	var back_button = document.getElementById("goBack_essay");
+	back_button.style.transition = "opacity 0.6s";
 
 	setTimeout(function() {
 		back_button.style.visibility = "visible";
 		back_button.style.opacity = 1;
-	}, 500);
+	}, 400);
 	
 }
 
@@ -135,15 +143,22 @@ function goBackSelection() {
 	htmlElem.style.overflow = "hidden";
 	htmlBody.style.overflow = "hidden";
 
-	var back_button = document.getElementById("goBack");
+	var quote_text = document.getElementById("quote_text");
+	var p_elem = document.getElementById("essay_text");
+
+	quote_text.style.top = "-4vh";
+	p_elem.style.top = "-6vh";
+
+	var back_button = document.getElementById("goBack_essay");
+	back_button.style.transition = "opacity 0.2s";
 
 	var quote_area = document.getElementById("quote_area");
 	quote_area.classList.remove("clicked");
+	back_button.style.opacity = 0; 
 	
 	setTimeout(function() {
 		back_button.style.visibility = "hidden";
-		back_button.style.opacity = 0;
-	}, 500);
+	}, 200);
 
 	removeEssayText();
 

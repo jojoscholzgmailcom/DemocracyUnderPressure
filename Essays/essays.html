@@ -9,13 +9,14 @@
 	</head>
 	<body>		
 		<div class="upper_area">
-			<div id="goBack" class="button_back" onclick="location.href='../index.html';">
-				<i class="fa fa-arrow-left fa-4x" style="opacity: 1; color: black; visibility: visible;"></i>
+			<div id="goBack_main" class="button_back_main">
+				<i  class="fa fa-arrow-left fa-4x" onclick="location.href='../index.html';"></i>
 			</div>
+			
 			<div class="title_text">
 				Essays
 			</div>
-
+			
 			<div class="button_entire_area"> 
 				<div class="button_area">
 					<span class="button" onmouseover="hoverQuoteArea('g1')" onmouseout="resetQuoteArea('g1')" onclick="clickGroupButton('g1')">
@@ -42,9 +43,10 @@
 			</div>
 		</div>
 		
+		
 		<div id="quote_area" class="quote_area">
-			<div id="goBack" class="button_back" onclick="goBackSelection()">
-				<i class="fa fa-arrow-left fa-4x" style="opacity: 0; color: white; visibility: hidden;"></i>
+			<div id="goBack_essay" class="button_back_essay" onclick="goBackSelection()">
+				<i class="fa fa-arrow-left fa-4x"></i>
 			</div>
 			<p id="quote_text" class="quote">
 				<script src="../quotes.js"></script>
@@ -60,6 +62,6 @@
 		<script src="../Essays/essay_texts/g6.js"></script>
 
 		<script src="../Essays/button_functionality.js"></script>
-		<script src="../buttonAnimations.js"></script>
+		<script src="../button_animations.js"></script>
 	</body>
 </html>
