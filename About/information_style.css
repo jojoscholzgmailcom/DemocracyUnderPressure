@@ -1,0 +1,57 @@
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+ html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: #DC143C;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  } 
+
+  .title_text{
+    opacity: 0; /* Initially hide the text */
+    animation: fade-in-animation 1.5s ease-in-out forwards;
+    text-align: center; 
+    font-size: calc( 7vh + 2vw );
+    margin: 0;
+    font-weight: 600;
+    color: white;
+    /* white-space: nowrap; */
+  }
+
+  .main_text{
+    position: relative;
+    top: 5vh;
+    animation: fade-in-animation 1.5s ease-in-out forwards;
+    text-align: justify; 
+    font-size: calc( 3vh + 2vw );
+    margin: 0;
+    font-weight: 300;
+    color: white;
+  }
+
+  .button_back {
+    color: white;
+    width: 0vh;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    animation: fade-in-animation 2s ease-in-out forwards;
+  }
+
+  @keyframes fade-in-animation {
+    0% {
+      opacity: 0; /* Start with transparency */
+      transform: translateY(20px); /* Move the text down by 20 pixels */
+    }
+    100% {
+      opacity: 1; /* Fade in to full opacity */
+      transform: translateY(0); /* Move the text to its original position */
+    }
+  }
+  

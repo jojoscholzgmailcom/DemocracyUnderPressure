@@ -81,10 +81,11 @@
 
   .quote{
     position: relative;
-    top: 40%;
+    top: 0vh;
+    left: 0vh;
     text-align:center;
     color: white;
-    font-size: calc( 6vh + 2vw );
+    /* font-size: calc( 6vh + 2vw ); */
     font-weight: 450;
   }
 

@@ -89,7 +89,6 @@ html, body {
 }
 
 .quote_area.clicked {
-  top: 0;
   width: 100%;
   height: 100%;
   overflow-y: scroll;
@@ -97,22 +96,19 @@ html, body {
 }
 
 .button_back {
-  color: white;
   width: 8vh;
   text-align: center;
   cursor: pointer;
   border-radius: 50%;
   transition: opacity 1.5s;
-  visibility: hidden;
-  opacity: 0;
-}
+  animation: fade-in-animation 1.7s ease-in-out forwards;}
 
 .quote{
+  top: -6vh;
+  left: 0vh;
   position: relative;
-  top: 40%;
   text-align:center;
   color: white;
-  font-size: calc( 5vh + 2vw );
   font-weight: 450;
 }
 

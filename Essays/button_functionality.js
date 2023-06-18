@@ -1,0 +1,153 @@
+function randomlyChangeQuote(){
+	writeQuote();
+	setInterval(writeQuote, 5000);
+}
+
+function hoverQuoteArea(group) {
+	if (isClicked){
+		return;
+	}
+
+	var quoteArea = document.getElementById('quote_area');
+	
+	isHovered = true;
+
+	getText(group);
+
+	if(group === "g4" || group === "g5" || group === "g6"){
+		quoteArea.classList.add('hovered');
+	}
+}
+
+function getText(group){
+	container = document.getElementById("quote_text");
+	container.style.transition = "ease 1s";
+	container.style.opacity = 0;
+	container.innerHTML.text = "";
+
+	switch(group){
+		case "g1":
+			var [title, text] = group1();
+		break;
+		case "g2":
+			var [title, text] = group2();
+		break;
+		case "g3":
+			var [title, text] = group3();
+		break;
+		case "g4":
+			var [title, text] = group4();
+		break;
+		case "g5":
+			var [title, text] = group5();
+		break;
+		case "g6":
+			var [title, text] = group6();
+		break;
+	}
+
+	document.getElementById("quote_text").style.top = "-7vh";
+	document.getElementById("quote_text").style.left = 0;
+	
+	var p_elem = document.createElement("p");
+	p_elem.innerHTML = text;
+	
+	document.getElementById("quote_area").appendChild(p_elem);
+	p_elem.id = "essay_text";
+	p_elem.style.position = "relative";
+	p_elem.style.top = "-5vh";
+	p_elem.style.left = 0;
+	p_elem.style.transition = "1s ease";
+	p_elem.style.opacity = 0;
+	p_elem.style.color = "white";
+	p_elem.style.fontSize = "4vh";
+	p_elem.style.fontWeight = "450";
+	p_elem.style.textAlign = "justify";
+
+	setTimeout(function() {
+		document.getElementById("quote_text").innerHTML = title;
+		p_elem.style.opacity = 1;	
+		container.style.opacity = 1;
+	}, 400);
+}
+
+function removeEssayText(){
+	var quoteArea = document.getElementById('quote_area');
+	
+		quoteArea.childNodes.forEach(child => { // to remove extra text instances
+			if(child.nodeName == "P" && child.id == "essay_text"){
+				child.style.opacity = 0;
+				setTimeout(function(){quoteArea.removeChild(child);},400);
+			}
+		});
+}
+
+function resetQuoteArea(group) {
+	var quoteArea = document.getElementById('quote_area');
+	isHovered = false;
+	
+	setTimeout(function(){
+		writeQuote();
+	},400);
+
+	if(!isClicked){
+		removeEssayText();	
+	}
+
+	if(group === "g4" || group === "g5" || group === "g6"){
+		quoteArea.classList.remove('hovered');
+	}
+}
+
+function clickGroupButton() {
+	isClicked = true;
+	
+	var quoteArea = document.getElementById('quote_area');
+	
+	var countP = 0;
+	quoteArea.childNodes.forEach(child => {
+		if(child.nodeName == "P" && child.id == "essay_text"){
+			countP++;
+		}
+		if(countP > 1 && child.nodeName == "P" && child.id == "essay_text"){
+			quoteArea.removeChild(child);
+		}
+	});
+	
+	quoteArea.classList.add("clicked");
+	quoteArea.classList.remove("hovered");
+	
+	var back_button = document.getElementById("goBack");
+
+	setTimeout(function() {
+		back_button.style.visibility = "visible";
+		back_button.style.opacity = 1;
+	}, 500);
+	
+}
+
+function goBackSelection() {
+	isClicked = false;
+
+	var htmlElem = document.documentElement;
+	var htmlBody = document.body;
+
+	htmlElem.style.overflow = "hidden";
+	htmlBody.style.overflow = "hidden";
+
+	var back_button = document.getElementById("goBack");
+
+	var quote_area = document.getElementById("quote_area");
+	quote_area.classList.remove("clicked");
+	
+	setTimeout(function() {
+		back_button.style.visibility = "hidden";
+		back_button.style.opacity = 0;
+	}, 500);
+
+	removeEssayText();
+
+	setTimeout(function() {
+		writeQuote();
+	}, 200);
+}

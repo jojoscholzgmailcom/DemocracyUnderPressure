@@ -1,15 +1,6 @@
-var quotes = {
-	"Confucious": ["That is a very nice quote you've got"],
-	"Biden": ["SODAAA", "Hehe"],
-	"Heisy": ["I'm the one who knocks", "Say my name", "I am become Walter"],
-	"Geralt": ["The wind is howling"],
-	"Civ VI player": ["One more turn, then I'm done", "One more research focus, I promise", "Why did you just nuke me Gandhi?!"]
-};
-
 var lastQuote = "";
-
-var isHovered = 0;
 var isClicked = false;
+var isHovered = false;
 
 function getQuote(){
 	var authors = Object.keys(quotes);
@@ -28,43 +19,39 @@ function getQuote(){
 }
 
 function writeQuote(){
+	if(isClicked || isHovered){
+		return;
+	}
+
 	var [quote, author] = getQuote();
 	
 	while (lastQuote === quote){
 		[quote, author] = getQuote();
 	}
 
+	var quote_length_scale = 1/(quote.length*quote.split(" ").length) * 1000;
+
+	if(quote_length_scale < 0.1){
+		quote_length_scale = 0.75;
+	} else if(quote_length_scale > 0.1 && quote_length_scale < 1){
+		quote_length_scale = 1.2
+	} else if(quote_length_scale > 1.5){
+		quote_length_scale = 1.5
+	}
+
 	var container = document.getElementById("quote_text");
 	container.style.opacity = 0;
-	container.style.transition = "ease 1s";
-
-	randomPosition(quote);
+	container.style.transition = "ease 0.3s";
+	setTimeout(function() {
+		container.style.fontSize = `calc(4vh * ${quote_length_scale} + 1vw * ${quote_length_scale})`;
+	}, 300);
 	
 	setTimeout(function() {
 		document.getElementById("quote_text").innerHTML = `"${quote}" <br/> ${author}`;
 		container.style.opacity = 1;
-	}, 400);
+	}, 600);
 	
-
 	lastQuote = quote;
-}
-
-function randomPosition(quote){
-	var quoteArea = document.getElementById('quote_area');
-
-	var width = quoteArea.innerWidth*0.01 - quote.length*0.01*10;
-	var height = quoteArea.innerHeight*0.01 - quote.length*0.01*10;
-
-	var randomXPos = Math.floor(Math.random() * width);
-	var randomYPos = Math.floor(Math.random() * height); 
-
-	randomXPos *= Math.round(Math.random()) ? 1 : -1;
-
-	// document.getElementById("quote_text").style.top = randomYPos + "vh";
-	// document.getElementById("quote_text").style.left = randomXPos + "vw";
-
-	document.getElementById("quote_text").style.top = 0 + "vh";
-	document.getElementById("quote_text").style.left = 0 + "vw";
 }
 
 function randomlyChangeQuote(){
@@ -84,10 +71,8 @@ function resetQuoteArea() {
 	var quoteArea = document.getElementById('quote_area');
 	var upperArea = document.getElementById("upper_area");
 
-
 	quoteArea.classList.remove('hovered');
 	upperArea.classList.remove("hovered");
 }
-
 
 randomlyChangeQuote();
