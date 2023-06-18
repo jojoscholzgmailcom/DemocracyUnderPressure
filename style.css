@@ -24,10 +24,10 @@
   .button {
     border: solid 2px black;
     color: black;
-    width: calc( 20vw + 2vh );
-    height: calc( 22vh + 0.5vw );
+    width: calc( 20vw + 1vh );
+    height: calc( 16vh + 5vw );
     padding: 1vh;
-    margin: 1vh;
+    margin: 1vw;
     margin-bottom: 10vh;
     border-radius: 4vh;
     cursor: pointer;
@@ -42,7 +42,7 @@
   .button:hover{
     background-color: #DC143C;
     width: calc( 25vw + 1vh );
-    height: calc( 27vh + 1vw );
+    height: calc( 18vh + 6vw );
     font-size: calc( 2.2vh + 1.2vw );
   }
 

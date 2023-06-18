@@ -58,7 +58,7 @@ html, body {
   margin-bottom: 0vh;
   border-radius: 4vh;
   cursor: pointer;
-  font-size: calc( 2vh + 2vw );
+  font-size: calc( 1vh + 3vw );
   transition: ease 0.4s;
   text-align: center;
   position: relative;
@@ -67,11 +67,16 @@ html, body {
   transform-origin: center;
 }
 
+.text_button {
+  position: relative;
+  top: 25%;
+}
+
 .button:hover{
   background-color: #DC143C;
   width: 25vw;
   height: 12vh;
-  font-size: 5vh;
+  font-size: calc( 2vh + 3vw );
 }
 
 .quote_area{
