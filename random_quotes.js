@@ -32,11 +32,11 @@ function writeQuote(){
 	var quote_length_scale = 1/(quote.length*quote.split(" ").length) * 1000;
 
 	if(quote_length_scale < 0.1){
-		quote_length_scale = 0.75;
+		quote_length_scale = 0.6;
 	} else if(quote_length_scale > 0.1 && quote_length_scale < 1){
-		quote_length_scale = 1.2
-	} else if(quote_length_scale > 1.5){
-		quote_length_scale = 1.5
+		quote_length_scale = 1;
+	} else if(quote_length_scale > 1.3){
+		quote_length_scale = 1.3;
 	}
 
 	var container = document.getElementById("quote_text");
