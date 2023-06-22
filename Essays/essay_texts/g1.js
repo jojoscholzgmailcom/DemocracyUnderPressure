@@ -4,7 +4,7 @@ function group1(){
 	<h3>Abstract</h3>
 	
 	<p align="right"> Populism seems to become stronger 
-	the more intellectuals criticize it (Taguieff 1995, 43). </p> <br/><br/>
+	the more intellectuals criticize it (Taguieff 1995, 43). </p> <br/>
 
 	With the election of Viktor Orbán as prime minister in Hungary in 2010 and Andrzej Duda as 
 	president in Poland in 2015, as well as the large increase of seats by Jimmie Åkesson in Sweden 

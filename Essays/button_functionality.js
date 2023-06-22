@@ -46,8 +46,8 @@ function getText(group){
 		break;
 	}
 
-	document.getElementById("quote_text").style.top = "-13vh";
-	document.getElementById("quote_text").style.left = 0;
+	// document.getElementById("quote_text").style.top = "50vh";
+	// document.getElementById("quote_text").style.left = 0;
 	document.getElementById("quote_text").style.fontSize = "calc(3vh + 2vw)";
 	
 	var p_elem = document.createElement("p");
@@ -56,7 +56,8 @@ function getText(group){
 	document.getElementById("quote_area").appendChild(p_elem);
 	p_elem.id = "essay_text";
 	p_elem.style.position = "relative";
-	p_elem.style.top = "-10vh";
+	p_elem.style.margin = "5vw";
+	p_elem.style.top = "-5vh";
 	p_elem.style.left = 0;
 	p_elem.style.transition = "1s ease";
 	p_elem.style.opacity = 0;
@@ -98,8 +99,6 @@ function resetQuoteArea(group) {
 	if(group === "g4" || group === "g5" || group === "g6"){
 		quoteArea.classList.remove('hovered');
 	}
-	document.getElementById("quote_text").style.top = "-15vh";
-	document.getElementById("quote_text").style.left = "0vh";
 }
 
 function clickGroupButton() {
@@ -110,8 +109,7 @@ function clickGroupButton() {
 	var quote_text = document.getElementById("quote_text");
 	var p_elem = document.getElementById("essay_text");
 
-	quote_text.style.top = "2vh";
-	p_elem.style.top = "2vh";
+	console.log(quote_text.style.top);
 	
 	var countP = 0;
 	quoteArea.childNodes.forEach(child => {
@@ -123,8 +121,11 @@ function clickGroupButton() {
 		}
 	});
 	
-	quoteArea.classList.add("clicked");
+	quote_text.style.top = "-8vh";
+	p_elem.style.top = "-9vh";
+
 	quoteArea.classList.remove("hovered");
+	quoteArea.classList.add("clicked");
 	
 	var back_button = document.getElementById("goBack_essay");
 	back_button.style.transition = "opacity 0.6s";
@@ -133,7 +134,6 @@ function clickGroupButton() {
 		back_button.style.visibility = "visible";
 		back_button.style.opacity = 1;
 	}, 400);
-	
 }
 
 function goBackSelection() {
@@ -148,9 +148,8 @@ function goBackSelection() {
 	var quote_text = document.getElementById("quote_text");
 	var p_elem = document.getElementById("essay_text");
 
-	quote_text.style.top = "-4vh";
-	p_elem.style.top = "-6vh";
-
+	quote_text.style.top = "-10vh";
+	
 	var back_button = document.getElementById("goBack_essay");
 	back_button.style.transition = "opacity 0.2s";
 
