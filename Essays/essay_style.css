@@ -129,6 +129,7 @@ html, body {
   text-align:center;
   color: white;
   font-weight: 450;
+  margin: 5vw;
 }
 
 @keyframes fade-in-animation {
