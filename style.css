@@ -1,6 +1,7 @@
 
 @viewport {
   width: device-width ;
+  height: device-height;
   zoom: 1.0 ;
 }
 
@@ -85,7 +86,7 @@
     left: 0vh;
     text-align:center;
     color: white;
-    /* font-size: calc( 6vh + 2vw ); */
+    margin: 5vw;
     font-weight: 450;
   }
 

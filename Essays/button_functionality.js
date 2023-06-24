@@ -148,7 +148,7 @@ function goBackSelection() {
 	var quote_text = document.getElementById("quote_text");
 	var p_elem = document.getElementById("essay_text");
 
-	quote_text.style.top = "-10vh";
+	quote_text.style.top = "-3vh";
 	
 	var back_button = document.getElementById("goBack_essay");
 	back_button.style.transition = "opacity 0.2s";

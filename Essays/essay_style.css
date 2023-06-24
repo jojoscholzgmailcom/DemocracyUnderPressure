@@ -1,12 +1,13 @@
 
 @viewport {
   width: device-width ;
+  height: device-height;
   zoom: 1.0 ;
 }
 
 html, body {
-  height: 100%;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   background: white;
   overflow: hidden;
@@ -42,10 +43,10 @@ html, body {
   justify-content: center; 
   position: relative;
   width: 100%;
-  height: 5vh; 
-  top: 3vh;
+  /* height: 5vh;  */
+  top: 2vh;
   margin: 0;
-  padding-bottom: 15vh;
+  padding-bottom: 10vh;
 }
 
 .button {
@@ -75,8 +76,8 @@ html, body {
 
 .button:hover{
   background-color: #DC143C;
-  width: 25vw;
-  height: 12vh;
+  width: calc( 25vw + 1vh);
+  height: calc( 12vh + 3vw);
   font-size: calc( 2vh + 3vw );
 }
 
@@ -91,7 +92,7 @@ html, body {
 }
 
 .quote_area.hovered {
-  bottom: -2%;
+  bottom: -2vh;
 }
 
 .quote_area.clicked {
@@ -123,13 +124,13 @@ html, body {
 }
 
 .quote{
-  top: -10vh;
-  left: 0vh;
   position: relative;
+  top: -3vh;
+  left: 0vh;
   text-align:center;
   color: white;
-  font-weight: 450;
   margin: 5vw;
+  font-weight: 450;
 }
 
 @keyframes fade-in-animation {
