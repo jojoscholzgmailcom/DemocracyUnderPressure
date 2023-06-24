@@ -387,6 +387,9 @@ function group3(){
 	memory laws on mentions of 'Polish death camps', which, according to one of our respondents,
 	was a very popular phrase before being forbidden. <br/><br/>
 
+	<img src="../Essays/essay_texts/g3_plot.png" alt="G3 plot" style="max-width:100%; height:auto; margin-left:auto; margin-right:auto; display:block; border-radius:2%">
+	<center><i>Diagram 1 - Axial coding of interview responses using Atlas.ti</i></center>
+
 	<h4>Discussion</h4>
 	It must be thoroughly discussed after such an analysis the difference between populism and
 	nationalism and must be made clear that the authors of this paper do not intend to equalize the
