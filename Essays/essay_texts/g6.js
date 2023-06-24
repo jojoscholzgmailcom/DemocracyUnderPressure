@@ -1,6 +1,5 @@
 function group6(){
-	var title = `Populists Explain the World:<br/>
-	The Narrative of the Polish PiS Party about
+	var title = `Populists Explain the World:The Narrative of the Polish PiS Party about
 	the Refugee Crisis in 2015`;
 	var text = `1. Introduction<br/><br/>
 	

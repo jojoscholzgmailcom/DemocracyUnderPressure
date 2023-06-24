@@ -121,8 +121,7 @@ function clickGroupButton() {
 		}
 	});
 	
-	// quote_text.style.top = "-8vh";
-	p_elem.style.top = "7vh";
+	p_elem.style.top = "3vh";
 
 	quoteArea.classList.remove("hovered");
 	quoteArea.classList.add("clicked");
