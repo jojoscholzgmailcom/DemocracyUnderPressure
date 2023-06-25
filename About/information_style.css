@@ -40,9 +40,15 @@
     width: 0vh;
     text-align: center;
     margin: 1vw;
+    opacity: 0.5;
+    position: fixed;
     cursor: pointer;
     border-radius: 50%;
-    animation: fade-in-animation 2s ease-in-out forwards;
+    transition: opacity 0.5s ease;
+  }
+
+  .button_back:hover {
+    opacity: 1;
   }
 
   @keyframes fade-in-animation {
