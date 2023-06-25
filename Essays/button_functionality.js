@@ -46,8 +46,6 @@ function getText(group){
 		break;
 	}
 
-	// document.getElementById("quote_text").style.top = "50vh";
-	// document.getElementById("quote_text").style.left = 0;
 	document.getElementById("quote_text").style.fontSize = "calc(3vh + 2vw)";
 	
 	var p_elem = document.createElement("p");

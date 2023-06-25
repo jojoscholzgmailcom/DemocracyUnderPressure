@@ -43,7 +43,7 @@ function writeQuote(){
 	container.style.opacity = 0;
 	container.style.transition = "ease 0.3s";
 	setTimeout(function() {
-		container.style.fontSize = `calc(4vh * ${quote_length_scale} + 1vw * ${quote_length_scale})`;
+		container.style.fontSize = `calc(5vmin * ${quote_length_scale}`;
 	}, 300);
 	
 	setTimeout(function() {

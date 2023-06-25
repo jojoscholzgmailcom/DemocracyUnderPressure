@@ -125,11 +125,12 @@ html, body {
 
 .quote{
   position: relative;
-  top: -3vh;
-  left: 0vh;
+  top: -15vmin;
+  left: 0vw;
   text-align:center;
   color: white;
-  margin: 5vw;
+  margin: 5vmin;
+  padding: 3vmin;
   font-weight: 450;
 }
 

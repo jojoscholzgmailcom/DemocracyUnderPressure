@@ -18,7 +18,7 @@
     animation: fade-in-animation 1.5s ease-in-out forwards;
     text-align: center; 
     font-size: calc( 7vh + 2vw );
-    margin: 0;
+    margin: 7vw;
     font-weight: 600;
     color: white;
     /* white-space: nowrap; */
@@ -28,9 +28,9 @@
     position: relative;
     top: 5vh;
     animation: fade-in-animation 1.5s ease-in-out forwards;
-    text-align: justify; 
+    text-align: left; 
     font-size: calc( 3vh + 2vw );
-    margin: 0;
+    margin: 7vw;
     font-weight: 300;
     color: white;
   }
@@ -39,6 +39,7 @@
     color: white;
     width: 0vh;
     text-align: center;
+    margin: 1vw;
     cursor: pointer;
     border-radius: 50%;
     animation: fade-in-animation 2s ease-in-out forwards;
