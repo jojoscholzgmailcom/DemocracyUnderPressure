@@ -119,13 +119,18 @@ html, body {
 .button_back, .button_back_essay{
   cursor: pointer;
   color: white;
-  opacity: 0;
+  opacity: 0.45;
   visibility: hidden;
+  position: fixed;
+}
+
+.button_back_essay:hover {
+  opacity: 1;
 }
 
 .quote{
   position: relative;
-  top: -15vmin;
+  top: -4vmin;
   left: 0vw;
   text-align:center;
   color: white;

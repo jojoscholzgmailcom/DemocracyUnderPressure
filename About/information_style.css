@@ -17,7 +17,7 @@
     opacity: 0; /* Initially hide the text */
     animation: fade-in-animation 1.5s ease-in-out forwards;
     text-align: center; 
-    font-size: calc( 7vh + 2vw );
+    font-size: 8vmin;
     margin: 7vw;
     font-weight: 600;
     color: white;

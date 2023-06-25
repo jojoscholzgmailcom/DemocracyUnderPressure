@@ -55,7 +55,7 @@ function getText(group){
 	p_elem.id = "essay_text";
 	p_elem.style.position = "relative";
 	p_elem.style.margin = "5vw";
-	p_elem.style.top = "-5vh";
+	p_elem.style.top = "0vh";
 	p_elem.style.left = 0;
 	p_elem.style.transition = "1s ease";
 	p_elem.style.opacity = 0;
@@ -103,11 +103,6 @@ function clickGroupButton() {
 	isClicked = true;
 	
 	var quoteArea = document.getElementById('quote_area');
-
-	var quote_text = document.getElementById("quote_text");
-	var p_elem = document.getElementById("essay_text");
-
-	console.log(quote_text.style.top);
 	
 	var countP = 0;
 	quoteArea.childNodes.forEach(child => {
@@ -119,18 +114,17 @@ function clickGroupButton() {
 		}
 	});
 	
-	p_elem.style.top = "3vh";
-
 	quoteArea.classList.remove("hovered");
 	quoteArea.classList.add("clicked");
 	
 	var back_button = document.getElementById("goBack_essay");
-	back_button.style.transition = "opacity 0.6s";
-
+	back_button.style.transition = "opacity 0.7s ease";
+	back_button.classList.add("hover");
+	
 	setTimeout(function() {
 		back_button.style.visibility = "visible";
-		back_button.style.opacity = 1;
-	}, 400);
+	}, 200);
+	
 }
 
 function goBackSelection() {
@@ -142,17 +136,12 @@ function goBackSelection() {
 	htmlElem.style.overflow = "hidden";
 	htmlBody.style.overflow = "hidden";
 
-	var quote_text = document.getElementById("quote_text");
-	var p_elem = document.getElementById("essay_text");
-
-	quote_text.style.top = "-3vh";
-	
 	var back_button = document.getElementById("goBack_essay");
 	back_button.style.transition = "opacity 0.2s";
 
 	var quote_area = document.getElementById("quote_area");
 	quote_area.classList.remove("clicked");
-	back_button.style.opacity = 0; 
+	back_button.classList.remove("hover");
 	
 	setTimeout(function() {
 		back_button.style.visibility = "hidden";
